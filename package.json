@@ -15,7 +15,8 @@
   "scripts": {
     "start": "webpack-dev-server --open --config ./webpack.development.config.js",
     "build": "NODE_ENV=production webpack --config ./webpack.production.config.js",
-    "lint": "eslint index.js"
+    "lint": "eslint index.js",
+    "test": "jest"
   },
   "peerDependencies": {
     "prop-types": ">=16.7.0-alpha.2",
@@ -36,12 +37,18 @@
     "@babel/core": "^7.2.0",
     "@babel/preset-env": "^7.2.0",
     "@babel/preset-react": "^7.0.0",
+    "babel-core": "^7.0.0-bridge.0",
     "babel-eslint": "^10.0.1",
+    "babel-jest": "^23.6.0",
     "babel-loader": "^8.0.4",
     "eslint": "^5.9.0",
     "eslint-plugin-react": "^7.11.1",
     "html-loader": "^0.5.5",
     "html-webpack-plugin": "^3.2.0",
+    "jest": "^23.6.0",
+    "jest-dom": "^3.0.0",
+    "react-testing-library": "^5.3.1",
+    "regenerator-runtime": "^0.13.1",
     "webpack": "^4.27.1",
     "webpack-cli": "^3.1.2",
     "webpack-dev-server": "^3.1.10"

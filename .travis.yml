@@ -1,0 +1,19 @@
+language: node_js
+
+node_js:
+  - '10.14.1'
+
+branches:
+  only:
+    - master
+
+script:
+  - npm --version
+  - node_modules/.bin/builder run check-ci
+
+  # Run test before building
+  - npm run test
+
+  # Prune deps to just production and ensure we can still build
+  - npm prune --production
+  - node_modules/.bin/builder run build
