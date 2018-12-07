@@ -35,7 +35,7 @@ describe('Accordion', () => {
 		expect(component.getByText('content 3').textContent).toEqual('content 3');
 	});
 
-	it('On click of accordion title toggles (hide/show) the accordion children', () => {
+	it('On click of accordion title hide & show the accordion content', () => {
 		fireEvent.click(component.getByText(title));
 		expect(component.queryByText('content 1')).toBeNull();
 		expect(component.queryByText('content 2')).toBeNull();
