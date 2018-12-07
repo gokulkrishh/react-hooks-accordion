@@ -1,13 +1,16 @@
 {
   "name": "react-hooks-accordion",
   "version": "1.0.0",
-  "description": "A simple accordion made out of react hooks (Yea you heard me it's built based on hooks 🤪 ) ",
-  "main": "index.js",
+  "description": "A simple accordion using react hooks 🤪",
+  "main": "dist/index.js",
   "repository": "git@github.com:gokulkrishh/react-hooks-accordion.git",
   "author": "gokulkrishh <krishnangokul9@gmail.com>",
   "keywords": [
     "accordion",
-    "react"
+    "hooks",
+    "hooks-accordion",
+    "react",
+    "react-hooks"
   ],
   "scripts": {
     "start": "webpack-dev-server --open --config ./webpack.development.config.js",
@@ -25,9 +28,6 @@
     "react": "16.7.0-alpha.2",
     "react-dom": "16.7.0-alpha.2"
   },
-  "files": [
-    "dist"
-  ],
   "bugs": {
     "url": "https://github.com/gokulkrishh/react-hooks-accordion/issues"
   },
