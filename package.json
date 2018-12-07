@@ -1,0 +1,49 @@
+{
+  "name": "react-hooks-accordion",
+  "version": "1.0.0",
+  "description": "A simple accordion made out of react hooks (Yea you heard me it's built based on hooks 🤪 ) ",
+  "main": "index.js",
+  "repository": "git@github.com:gokulkrishh/react-hooks-accordion.git",
+  "author": "gokulkrishh <krishnangokul9@gmail.com>",
+  "keywords": [
+    "accordion",
+    "react"
+  ],
+  "scripts": {
+    "start": "webpack-dev-server --open --config ./webpack.development.config.js",
+    "build": "NODE_ENV=production webpack --config ./webpack.production.config.js",
+    "lint": "eslint index.js"
+  },
+  "peerDependencies": {
+    "prop-types": ">=16.7.0-alpha.2",
+    "react": ">=16.7.0-alpha.2"
+  },
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "prop-types": "^15.6.2",
+    "react": "16.7.0-alpha.2",
+    "react-dom": "16.7.0-alpha.2"
+  },
+  "files": [
+    "dist"
+  ],
+  "bugs": {
+    "url": "https://github.com/gokulkrishh/react-hooks-accordion/issues"
+  },
+  "homepage": "https://github.com/gokulkrishh/react-hooks-accordion#readme",
+  "devDependencies": {
+    "@babel/core": "^7.2.0",
+    "@babel/preset-env": "^7.2.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^8.0.4",
+    "eslint": "^5.9.0",
+    "eslint-plugin-react": "^7.11.1",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  }
+}
