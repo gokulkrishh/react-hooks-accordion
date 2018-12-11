@@ -1,7 +1,7 @@
 {
   "name": "react-hooks-accordion",
   "version": "1.0.0",
-  "description": "A simple accordion using react hooks 🤪",
+  "description": "A simple accordion react component using react hooks 🤪",
   "main": "dist/index.js",
   "repository": "git@github.com:gokulkrishh/react-hooks-accordion.git",
   "author": "gokulkrishh <krishnangokul9@gmail.com>",
@@ -9,18 +9,22 @@
     "accordion",
     "hooks",
     "hooks-accordion",
+    "react-accordion",
     "react",
-    "react-hooks"
+    "react-hooks",
+    "react-hooks-accordion"
   ],
   "scripts": {
     "start": "webpack-dev-server --open --config ./webpack.development.config.js",
     "build": "NODE_ENV=production webpack --config ./webpack.production.config.js",
     "lint": "eslint index.js",
-    "test": "jest"
+    "prepublish": "npm run build",
+    "release": "np",
+    "test": "jest --watch"
   },
   "peerDependencies": {
-    "prop-types": ">=16.7.0-alpha.2",
-    "react": ">=16.7.0-alpha.2"
+    "react": "16.7.0-alpha.2",
+    "react-dom": "16.7.0-alpha.2"
   },
   "license": "MIT",
   "private": false,
@@ -47,6 +51,7 @@
     "html-webpack-plugin": "^3.2.0",
     "jest": "^23.6.0",
     "jest-dom": "^3.0.0",
+    "np": "^3.0.4",
     "react-testing-library": "^5.3.1",
     "regenerator-runtime": "^0.13.1",
     "webpack": "^4.27.1",

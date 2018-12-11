@@ -25,17 +25,17 @@ describe('Accordion', () => {
 		jest.clearAllMocks();
 	});
 
-	it('renders correctly', () => {
+	it('renders <Accordion /> correctly', () => {
 		expect(component.getByText(title).textContent).toEqual(title);
 	});
 
-	it('renders with children correctly', () => {
+	it('renders <Accordion /> with children correctly', () => {
 		expect(component.getByText('content 1').textContent).toEqual('content 1');
 		expect(component.getByText('content 2').textContent).toEqual('content 2');
 		expect(component.getByText('content 3').textContent).toEqual('content 3');
 	});
 
-	it('On click of accordion title hide & show the accordion content', () => {
+	it('On click of the accordion title, hide & show the accordion content', () => {
 		fireEvent.click(component.getByText(title));
 		expect(component.queryByText('content 1')).toBeNull();
 		expect(component.queryByText('content 2')).toBeNull();
@@ -47,7 +47,7 @@ describe('Accordion', () => {
 		expect(component.getByText('content 3').textContent).toEqual('content 3');
 	});
 
-	it('On click of accordion title calls the onToggle props', () => {
+	it('On click of the accordion title, calls the onToggle props', () => {
 		fireEvent.click(component.getByText(title));
 		expect(onToggleMock).toBeCalledTimes(1);
 	});

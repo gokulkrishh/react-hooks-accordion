@@ -1,6 +1,6 @@
 # react-hooks-accordion
 
-> A simple accordion made out of react hooks (Yea you heard me it's built based on hooks 🤪 ).
+> A simple accordion made out of react hooks.
 
 **Don't use in production (Until ReactJS supports hooks in production).**
 
@@ -65,12 +65,11 @@ render(
 
 > Type: any
 
-#### onToggle:
+#### onToggle: Callback when we toggle the accordion.
 
 > Type: function
-> Argument: boolean
 
-Callback when when we toggle the accordion.
+> Argument: boolean
 
 ### Development:
 ```bash
