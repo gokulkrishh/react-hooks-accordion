@@ -38,7 +38,7 @@ import { render } from 'react-dom'
 import Accordion from 'react-hooks-toggled'
 
 render(
-  <Accordion title="Accordion Title">
+  <Accordion title="Accordion Title" onToggle={(visible) => { alert(`Accordion is ${visible}`) }}>
     <ul>
       <li>
         <span>Hello</span>
