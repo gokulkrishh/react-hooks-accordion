@@ -1,4 +1,4 @@
-# react-hooks-accordion
+# react-hooks-accordion [![Build Status](https://travis-ci.org/gokulkrishh/react-hooks-accordion.svg?branch=master)](https://travis-ci.org/gokulkrishh/react-hooks-accordion)
 
 > A simple accordion made out of react hooks.
 
