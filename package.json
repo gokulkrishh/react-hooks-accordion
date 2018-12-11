@@ -20,7 +20,7 @@
     "lint": "eslint index.js",
     "prepublish": "npm run build",
     "release": "np",
-    "test": "jest --watch"
+    "test": "jest"
   },
   "peerDependencies": {
     "react": "16.7.0-alpha.2",
