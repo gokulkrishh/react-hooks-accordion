@@ -1,6 +1,6 @@
 {
   "name": "react-hooks-accordion",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "A simple accordion react component.",
   "main": "dist/index.js",
   "repository": "git@github.com:gokulkrishh/react-hooks-accordion.git",
