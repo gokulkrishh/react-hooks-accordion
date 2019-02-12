@@ -2,8 +2,6 @@
 
 > A simple accordion made out of react hooks.
 
-**Don't use in production (Until ReactJS supports hooks in production).**
-
 ## table-of-contents
 
 * [Installation](#installation)
@@ -26,8 +24,8 @@ yarn add react-hooks-accordion
 ### Dependency:
 
 ```js
-react@16.7.0-alpha.2
-react-dom@16.7.0-alpha.2
+react@16.8.1
+react-dom@16.8.1
 ```
 
 ### Usage:

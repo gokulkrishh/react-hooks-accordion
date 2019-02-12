@@ -1,10 +1,10 @@
 {
   "name": "react-hooks-accordion",
-  "version": "1.0.0",
-  "description": "A simple accordion react component using react hooks 🤪",
+  "version": "1.0.1",
+  "description": "A simple accordion react component.",
   "main": "dist/index.js",
   "repository": "git@github.com:gokulkrishh/react-hooks-accordion.git",
-  "author": "gokulkrishh <krishnangokul9@gmail.com>",
+  "author": "Gokulakrishnan Kalaikovan <krishnangokul9@gmail.com>",
   "keywords": [
     "accordion",
     "hooks",
@@ -22,16 +22,12 @@
     "release": "np",
     "test": "jest"
   },
-  "peerDependencies": {
-    "react": "16.7.0-alpha.2",
-    "react-dom": "16.7.0-alpha.2"
-  },
   "license": "MIT",
   "private": false,
   "dependencies": {
-    "prop-types": "^15.6.2",
-    "react": "16.7.0-alpha.2",
-    "react-dom": "16.7.0-alpha.2"
+    "prop-types": "^15.7.1",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1"
   },
   "bugs": {
     "url": "https://github.com/gokulkrishh/react-hooks-accordion/issues"
@@ -43,14 +39,14 @@
     "@babel/preset-react": "^7.0.0",
     "babel-core": "^7.0.0-bridge.0",
     "babel-eslint": "^10.0.1",
-    "babel-jest": "^23.6.0",
+    "babel-jest": "^24.1.0",
     "babel-loader": "^8.0.4",
     "eslint": "^5.9.0",
     "eslint-plugin-react": "^7.11.1",
     "html-loader": "^0.5.5",
     "html-webpack-plugin": "^3.2.0",
-    "jest": "^23.6.0",
-    "jest-dom": "^3.0.0",
+    "jest": "^24.1.0",
+    "jest-dom": "^3.1.1",
     "np": "^3.0.4",
     "react-testing-library": "^5.3.1",
     "regenerator-runtime": "^0.13.1",
