@@ -1,5 +1,6 @@
 module.exports = {
-	name: 'react-hooks-accordion',
-	rootDir: __dirname,
-	roots: [__dirname]
+  name: "react-hooks-accordion",
+  rootDir: __dirname,
+  collectCoverage: true,
+  roots: [__dirname]
 };
